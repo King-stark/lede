@@ -77,7 +77,15 @@ jobs:
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           EOF
-
+          
+          # 编译ASUS_RT-Acrh17的固件:
+          
+          cat >> .config <<EOF
+          CONFIG_TARGET_armvirt=y
+          CONFIG_TARGET_armvirt_64_Default=y
+          CONFIG_TARGET_BOARD="armvirt"
+          EOF
+          
           #
           # ===============================================================
           # 
