@@ -366,7 +366,6 @@ jobs:
           CONFIG_boost-static-and-shared-libs=y
           CONFIG_boost-variant-release=y
           # CONFIG_BRCMFMAC_PCIE is not set
-
           EOF
           
           #
