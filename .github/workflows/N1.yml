@@ -9,8 +9,8 @@ on:
 #      - main
 #    paths:
 #      - 'all.config'
-  schedule:
-    - cron: 35 12 * * 5
+#  schedule:
+#    - cron: 35 12 * * 5
   watch:
     types: started
 jobs:
